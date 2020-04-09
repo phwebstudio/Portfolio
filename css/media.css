@@ -14,10 +14,6 @@
 		margin: 1em 0;
 	}
 
-	header.sticky .logo {
-		margin-left: 1.5em;
-	}
-
 	header .main-menu a.menu-trigger {
 		display: block;
 		top: .3em;
