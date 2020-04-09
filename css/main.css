@@ -67,6 +67,13 @@ a {
 	text-decoration: none;
 }
 
+hr {
+	width: 100%;
+	background-color: #281356;
+	border: none;
+	height: 3px;
+}
+
 a.btn {
 	color: #281356;
 	border: 3px solid #281356;
@@ -78,6 +85,7 @@ a.btn {
 	transition: .25s;
 	border-radius: .25em;
 	font-weight: bold;
+	line-height: 1.5em;
 }
 
 a.btn:hover {
@@ -116,8 +124,8 @@ header.sticky {
 	transition: .25s;
 }
 
-header img {
-	width: 10em;
+header .logo img {
+	width: 15em;
 }
 
 header .main-menu li {
@@ -142,6 +150,11 @@ header .main-menu a:active {
 	color: #281356;
 }
 
+header a.number {
+	color: white;
+	font-weight: bold;
+}
+
 footer {
 	padding: 2.5em 0;
 	text-align: center;
@@ -150,8 +163,7 @@ footer {
 }
 
 .block {
-	margin: 1em;
-	padding: 5em 0;
+	padding: 5em 0 2.5em 0;
 	text-align: center;
 	color: #3c3c3c;
 	text-align: center;
@@ -164,6 +176,20 @@ footer {
 
 .block-clr h2 {
 	color: white;
+}
+
+.block-clr span.foreword {
+	color: white;
+}
+
+.block-clr a.btn {
+	border-color: white;
+	color: white;
+}
+
+.block-clr a.btn:hover {
+	background-color: white;
+	color: #281356;
 }
 
 .block-img {
@@ -202,8 +228,4 @@ footer {
 
 .item {
 	margin: 0 .5em;
-}
-
-.shadow {
-	box-shadow: 2.5px 2.5px 10px 2.5px #c3c3c3;
 }

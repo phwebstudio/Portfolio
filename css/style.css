@@ -1,19 +1,8 @@
-video {
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	top: 0;
-	z-index: -100;
-
-}
-
 .preview {
 	background-image: url(../img/bc.png);
 	background-attachment: scroll;
-	padding: 15em 0 2.5em 0;
+	padding: 12.5em 0 2.5em 0;
 	margin: 0;
-	box-shadow: none;
 }
 
 .preview > p {
@@ -21,6 +10,18 @@ video {
 	font-size: 1.25em;
 	margin: 0 auto;
 	font-style: italic;
+}
+
+.preview a.btn {
+	margin-top: 2.5em;
+	color: white;
+	width: 25%;
+	border-color: white;
+}
+
+.preview a.btn:hover {
+	color: #281356;
+	background-color: white;
 }
 
 .preview div {
@@ -38,10 +39,12 @@ video {
 
 .technologies .technologies-slider {
 	margin-top: 2.5em;
+	padding: 0 5%;
 }
 
-.technologies .technologies-slider div {
-	margin-bottom: 1.5em;
+.technologies .technologies-slider div img {
+	margin: auto !important;
+	margin-bottom: 1.5em !important;
 }
 
 .portfolio .portfolio-items {
@@ -49,62 +52,13 @@ video {
 	margin-bottom: 1em;
 }
 
-.portfolio .portfolio-items.first {
-	margin-top: 2.5em;
-}
-
-.portfolio .portfolio-items.last {
-	margin-bottom: 2.5em;
-}
-
 .portfolio .portfolio-items .portfolio-item {
-	background-blend-mode: overlay;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
 	width: 100%;
-	height: 15em;
-	text-align: left;
-	padding: 1em;
-}
-
-.portfolio .portfolio-items.first .portfolio-item:first-child {
-	background-image: url(../img/portfolio1.png);
-}
-
-.portfolio .portfolio-items.first .portfolio-item:nth-child(2) {
-	background-image: url(../img/portfolio1.png);
-}
-
-.portfolio .portfolio-items.first .portfolio-item:last-child {
-	background-image: url(../img/portfolio2.png);
-}
-
-.portfolio .portfolio-items.last .portfolio-item:first-child {
-	background-image: url(../img/portfolio3.png);
-}
-
-.portfolio .portfolio-items.last .portfolio-item:nth-child(2) {
-	background-image: url(../img/portfolio4.png);
-}
-
-.portfolio .portfolio-items.last .portfolio-item:last-child {
-	background-image: url(../img/portfolio4.png);
-}
-
-.portfolio .portfolio-items .portfolio-item span,
-.portfolio .portfolio-items .portfolio-item h3 {
-	color: transparent;
 }
 
 .portfolio .portfolio-items .portfolio-item:hover {
-	background-color: rgba(0, 0, 0, .5);
+	opacity: .75;
 	transition: .25s;
-}
-
-.portfolio .portfolio-items .portfolio-item:hover span,
-.portfolio .portfolio-items .portfolio-item:hover h3 {
-	color: white;
 }
 
 .portfolio a.btn {
@@ -112,12 +66,11 @@ video {
 }
 
 .testimotials .testimotials-slider p {
-	margin: 2.5em 0 1em 0;
+	margin: 2.5em 5% 1em 5%;
 }
 
 .testimotials .testimotials-slider h3 {
 	margin: 2.5em 0 1em 0;
-	color: #281356;
 }
 
 .contacts .contacts-items .contacts-item h3 {
@@ -125,23 +78,17 @@ video {
 	margin-top: .75em;
 }
 
-.contacts p {
-	font-style: italic;
-	margin-top: 1em;
+.contacts .contacts-items .contacts-item {
+	text-align: center;
+	color: #3c3c3c;
+	font-weight: bold;
+	width: 33%;
 }
 
-.contacts .contacts-items a {
-	width: 25%;
+.contacts .contacts-items a:hover {
+	text-decoration: underline;
 }
 
-.footer-contacts {
-	border-bottom: 3px solid white;
-	width: 25%;
-	justify-content: center;
+.contacts .contacts-items a img {
 	margin: 1em auto;
-}
-
-.footer-contacts a {
-	color: white;
-	padding: 1em;
 }

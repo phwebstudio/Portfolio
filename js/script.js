@@ -25,7 +25,7 @@ $(window).scroll(function () {
 
 $('.technologies-slider').slick({
 	infinite: true,
-  	slidesToShow: 5,
+  	slidesToShow: 3,
   	slidesToScroll: 1,
 	draggable: false,
 	autoplay: true,
@@ -44,7 +44,8 @@ $('.testimotials-slider').slick({
 	autoplaySpeed: 4000,
 	pauseOnFocus: false,
 	dots: true, 
-	arrows: false
+	arrows: true,
+	fade: true
 });
 
 $('.blog-items').slick({
