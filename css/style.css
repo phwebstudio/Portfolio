@@ -37,14 +37,21 @@
 	color: #281356;
 }
 
-.technologies .technologies-slider {
-	margin-top: 2.5em;
-	padding: 0 5%;
+.technologies .technologies-items .technologies-item {
+	width: 19%;
 }
 
-.technologies .technologies-slider div img {
+.technologies .technologies-items .technologies-item img {
 	margin: auto !important;
-	margin-bottom: 1.5em !important;
+	margin-bottom: .5em !important;
+}
+
+.technologies .technologies-items .technologies-item h3 {
+	color: #3c3c3c;
+}
+
+.technologies span.treedots {
+	font-size: 5em;
 }
 
 .portfolio .portfolio-items {
@@ -63,6 +70,21 @@
 
 .portfolio a.btn {
 	width: 25%;
+}
+
+.price .price-items {
+	display: block;
+}
+
+.price .price-items .price-item {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px dotted #281356;
+	margin-bottom: 1em;
+}
+
+.price .price-items .price-item:last-child {
+	margin-bottom: 2.5em;
 }
 
 .testimotials .testimotials-slider p {
