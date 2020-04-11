@@ -139,6 +139,10 @@ header .main-menu a {
 	border-bottom: 1px solid transparent; 
 }
 
+header .main-menu a.menu-trigger {
+	display: none;
+}
+
 header .main-menu a:hover {
 	border-color: white;
 	transition: .25s;
