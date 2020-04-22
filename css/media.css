@@ -109,14 +109,24 @@
 }
 
 @media screen and (max-width: 655px) {
-	.items {
+	.items,
+	.contacts-btns {
 		display: grid;
 		grid-template-columns: auto;
 		margin-top: 1.5em;
 	}
 
-	.item {
+	.contacts-btns {
+		margin-top: 0;
+	}
+
+	.item,
+	.contacts-btns a {
 		margin: 1em 0;
 		width: 100% !important;
 	}
+
+	.contacts-btns a {
+		width: auto !important;
+	} 
 }
