@@ -28,6 +28,12 @@
 	margin-top: 12.5em;
 }
 
+.services span.treedots,
+.technologies span.treedots,
+.contacts span.treedots {
+	font-size: 5em;
+}
+
 .services .services-items .services-item {
 	width: 25%;
 }
@@ -50,10 +56,6 @@
 	color: #3c3c3c;
 }
 
-.technologies span.treedots {
-	font-size: 5em;
-}
-
 .portfolio .portfolio-items {
 	margin-top: 1em;
 	margin-bottom: 1em;
@@ -72,11 +74,13 @@
 	width: 25%;
 }
 
-.price .price-items {
+.price .price-items,
+.contacts .contacts-items {
 	display: block;
 }
 
-.price .price-items .price-item {
+.price .price-items .price-item,
+.contacts .contacts-items .contacts-item {
 	display: flex;
 	justify-content: space-between;
 	border-bottom: 2px dotted #281356;
@@ -95,22 +99,39 @@
 	margin: 2.5em 0 1em 0;
 }
 
-.contacts .contacts-items .contacts-item h3 {
+.contacts .contacts-items .contacts-item a {
 	color: #281356;
-	margin-top: .75em;
-}
-
-.contacts .contacts-items .contacts-item {
-	text-align: center;
-	color: #3c3c3c;
 	font-weight: bold;
-	width: 33%;
 }
 
-.contacts .contacts-items a:hover {
-	text-decoration: underline;
+.contacts .contacts-btns {
+	margin-top: 5em;
+	justify-content: center;
 }
 
-.contacts .contacts-items a img {
-	margin: 1em auto;
+.contacts .contacts-btns a {
+	width: auto;
+	margin: 0 auto;
+	padding: .5em;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+
+}
+
+.contacts .contacts-btns a img {
+	display: block;
+	margin: .5em auto;
+}
+
+.contacts .contacts-btns a span {
+	cursor: pointer;
+	border-bottom: 3px dotted transparent;
+	color: #3c3c3c;
+	padding-bottom: .25em;
+}
+
+.contacts .contacts-btns a:hover span {
+	border-color: #281356;
+	transition: .25s;
 }
